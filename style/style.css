@@ -1,0 +1,421 @@
+*{  
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;;
+    /* border: solid red 1px; */
+       
+}
+
+body{
+    max-width: 100vw;
+    min-width: 365px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8,8,8);
+   
+
+}
+.icon{
+    width: 40%;  
+    
+  
+
+    
+}
+
+
+
+.main{
+    width: 1920px;
+    height: 100vh;
+    display: flex;
+    background-image: url(pictures/backgroud.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+.box-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+}
+
+.div-profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+#icon-profile{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 1.1s;
+    overflow: hidden;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+
+
+
+#informacoes{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+}
+
+.box-icons{
+    display: flex;
+    margin-left: 10%;
+    width: 100%;
+}
+
+
+.div-adjust{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+
+
+.left-one{
+    width: 100%;
+    height: 50%;
+    
+
+}
+
+.left-two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 50%;
+    
+
+}
+
+.div-icon-img{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+
+    height: 75%;
+    
+    background-color: black;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+
+
+.div-icon{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    border: solid 2px white;
+    transition: all 0.5s;
+    
+    
+    
+}
+
+.div-icon h4{
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 0 auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+}
+
+.div-icon:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    
+}
+
+/* LADO DIREITO */
+
+.box-right{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-social{
+    
+    display: flex ;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    
+
+}
+
+.icon-social{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    max-width: 70px;
+    height: 40%;
+    background-color: white;
+    border: solid 2.5px black;
+    border-radius: 15px 0 0 15px;
+    transition: all 0.5s;
+}
+
+.icon-social:hover{
+    transform: scale(1.1);
+}
+
+.social-icon{
+    width:45px;
+    height: 45px;
+    transition: all 0.5s;
+    
+    
+
+}
+
+.social-icon:hover{
+    transform: scale(1.1);
+}
+/* ACORDEON */
+
+.acordeon-projetos{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    
+    
+}
+
+.c{
+    position: relative;
+    width: 65%;   
+    background-color: rgb(0, 0, 0);
+    border: solid white 2px;
+    border-radius: 10px; 
+}
+
+#box-one :hover{
+    
+    background-color: darkcyan;
+    transition: 0.5s;
+}
+    
+#box-two :hover{
+        
+        background-color: rgba(172, 255, 47, 0.6);
+        transition: 0.5s;
+}
+#box-three :hover{
+    color: black;
+    background-color: darkgoldenrod;
+    transition: 0.5s;
+}
+#box-four :hover{
+    color: black;
+    background-color: rgb(187, 2, 2);
+    transition: 0.5s;
+}
+#box-five :hover{
+    color: black;
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+#box-six :hover{
+    color: black;
+    background-color: deeppink;
+    transition: 0.5s;
+}
+
+.icon-port{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-port img{
+    width: 50px;
+    height: 50px;
+}
+
+input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity:0;
+    visibility: 0;
+    
+  }
+h1{ 
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding:1em;
+    position: relative;
+
+}
+label{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+    
+  }
+label::before{
+    content:"";
+    display: inline-block;
+    border: 10px solid transparent;
+    transition: 0.5s;
+    
+}
+div.p{
+    height: 0px;
+    overflow: hidden;
+    transition: 1.1s;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    
+  }
+
+input:checked ~ h1 label::before{
+    
+    max-height: 10px; 
+    margin-top:12px;
+    margin-right:10px;
+    transition: 0.5s;
+  }
+
+input:checked ~ div.p{
+    display: flex;
+    justify-content:space-around;
+    gap: 3%;
+    height:90px;
+    min-height: 90px;
+    max-height: 100px;
+  }
+/* FIM ACORDEON */
+
+
+/* RESPONSIVIDADE CELULARES */
+
+@media (min-width:360px) and (max-width: 920px){
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+    .main{
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+   }
+
+   .left-one{
+    width: 100vw;
+   }
+   .div-icon-img{
+    height: 50%;
+   }
+   .left-two{
+    width: 100vw;
+    background-color: red;
+   }
+   .box-icons{
+    margin: 15px;
+   }
+   .div-adjust h4{
+    font-size: 16px;
+   }
+   .div-icon{
+    height: 120px;
+   }
+   .icon{
+    width: 60px;
+    height: 60px;
+   }
+   .box-right{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    gap: 30px;
+
+   }
+   .acordeon-projetos{
+    width: 100vw;
+    margin-top: 5%;
+   }
+   .c{
+    width: 80%;
+    font-size: 20px;
+   }
+   .c h1{
+    font-size: 20px;
+   }
+
+   .box-social{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 70px;
+   }
+   .icon-social{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 70%;
+    max-width: none;
+    height: 65px;
+   }
+}
